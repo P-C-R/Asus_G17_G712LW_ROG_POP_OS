@@ -19,7 +19,7 @@
   * `sudo make install`
   * `systemctl daemon-reload && systemctl restart asusd`
 
-* adjust the /etc/asusd/asusd.conf via `sudo nano /etc/asusd/asusd.conf` to your liking. ~I am still using the the PopOS GPU switcher so change `"manage_gfx": true` to `"manage_gfx": false`~ I switchted to the switcher of asus-nb-ctrl. For this go into the gnome extensions manager in firefox and disable power76 and disable system76-power in the systemmd via `systemctl stop system76-power.service  && systemctl disable system76-power.service` and then `sudo mkdir  /etc/X11/xorg.conf.d
+* adjust the /etc/asusd/asusd.conf via `sudo nano /etc/asusd/asusd.conf` to your liking. ~I am still using the the PopOS GPU switcher so change `"manage_gfx": true` to `"manage_gfx": false`~ I switchted to the switcher of asus-nb-ctrl. For this go into the gnome extensions manager in firefox and disable power76 and disable system76-power in the systemmd via `systemctl stop system76-power.service  && systemctl disable system76-power.service` and then `sudo mkdir  /etc/X11/xorg.conf.d`
 * Add
   * ```
     systemctl --user enable asus-notify.service
