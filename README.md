@@ -9,6 +9,8 @@
     sudo apt install mainline
     ```
   * then start mainline and install >5.11 kernel (below 5.11 you have to add special moduls to the kernel)
+
+* To get sound working do this https://lab.retarded.farm/zappel/asus-rog-zephyrus-g14/-/wikis/Hardware/Audio and https://askubuntu.com/questions/1276428/no-sound-alc294-asus-rog-strix-512-ubuntu-20-04-01/1277167#1277167
 * Download  https://gitlab.com/asus-linux/asus-nb-ctrl , extract and move into the folder
 * Build asus-nb-ctrl
   * Install Rust `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
