@@ -1,0 +1,1 @@
+# Asus_G17_G712LW_ROG_POP_OS
