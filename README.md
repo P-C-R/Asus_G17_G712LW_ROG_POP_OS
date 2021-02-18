@@ -1,4 +1,4 @@
-# Install notes for installing Pop OS 20.10 on a G17 Laptop with a I7 10875H and RTX2070
+# Install notes for installing Pop OS 20.10 on a G17 Laptop with a i7 10875H and RTX2070
 ## Installing Pop OS
 
 * Download PopOS with Nvida Drivers and install it.
