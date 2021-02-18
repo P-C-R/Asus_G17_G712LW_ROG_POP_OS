@@ -17,10 +17,11 @@
   * `sudo make install`
   * `systemctl daemon-reload && systemctl restart asusd`
 
-* adjust the /etc/asusd/asusd.conf via `sudo nano /etc/asusd/asusd.conf` to your liking. I am still using the the PopOS GPU switcher so change `"manage_gfx": true` to `"manage_gfx": false`
+* adjust the /etc/asusd/asusd.conf via `sudo nano /etc/asusd/asusd.conf` to your liking. I am still using the the PopOS GPU switcher so change `"manage_gfx": true` to `"manage_gfx": false` 
 * Add
- * ```
-   systemctl --user enable asus-notify.service
-   systemctl --user start asus-notify.service
-   ```
+  * ```
+    systemctl --user enable asus-notify.service
+    systemctl --user start asus-notify.service
+    ```
+* Add `asusctl profile -n` to a shortcut via the keyboard manger. I use the Fan Key on the top left
   
