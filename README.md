@@ -26,4 +26,5 @@
     systemctl --user start asus-notify.service
     ```
 * Add `asusctl profile -n` to a shortcut via the keyboard manger. I use the Fan Key on the top left
-  
+* To change led color use for example `asusctl led-mode static -c ffffff`to change the color to a static white one. More Info for each mode with the `-h`command. For example `asusctl led-mode -h`
+
